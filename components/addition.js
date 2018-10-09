@@ -7,7 +7,7 @@ class Redux extends Component {
       <div>
         <button onClick={increment}>Increment</button>
         <button onClick={decrement}>Decrement</button>
-        <h5>{value}</h5>
+        <h1>{value}</h1>
       </div>
     );
   }
